@@ -2,9 +2,8 @@
 
 A lightweight, client-side JavaScript application to track your cryptocurrency holdings. This project features a clean dashboard interface that calculates real-time asset values, manages your current portfolio distribution, and visualizes data using a responsive pie chart.
 
----
 
-## ✨ Features
+## Features
 
 * **Asset Management**: Easily add new coin holdings with name, current price, and quantity owned.
 * **Live Calculations**: Instantly calculates the total value per asset ($Price \times Quantity$) and updates the portfolio's grand total.
@@ -12,14 +11,13 @@ A lightweight, client-side JavaScript application to track your cryptocurrency h
 * **Quick Delete**: Remove assets instantly from your dashboard with automatic total and chart recalculations.
 * **Persistent Storage**: Uses browser local storage to keep your portfolio data safe even after a page refresh.
 
----
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Frontend Structure**: HTML5
 * **Styling**: Tailwind CSS
 * **Logic**: Vanilla JavaScript
-* **Data Visualization**: Chart.js
+* **Data Visualization**: AsserChart.tsx
 
 
 ##  Getting Started
@@ -33,7 +31,7 @@ Bun or node
 
 1. Clone this repository to your local machine:
    ```sh
-   git clone https://github.com
+   git clone https://github.com/KwachOjunga/crypto-portfolio.git
    ```
 
 2. Navigate into the project directory:
